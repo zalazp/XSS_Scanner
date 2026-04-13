@@ -10,7 +10,7 @@ XSS_Scanner 是 Burp Suite 的 XSS 自动化检测插件，支持反射 / DOM �
 
 https://bailian.console.aliyun.com/cn-beijing?tab=doc#/doc
 
-![image-20260413160208569](C:\Users\ziqun\AppData\Roaming\Typora\typora-user-images\image-20260413160208569.png)
+![image-20260413160208569](https://github.com/zalazp/XSS_Scanner/blob/main/imgs/image-20260413160208569.png)
 
 3.进入XSS_Scanner/XSS_Scanner_AI文件夹 执行
 
@@ -26,11 +26,11 @@ pip install -r requirements.txt
 - 对自定义payload进行URL编码
 - 加载/重新加载payload
 
-![image-20260413161113022](C:\Users\ziqun\AppData\Roaming\Typora\typora-user-images\image-20260413161113022.png)
+![image-20260413161113022](https://github.com/zalazp/XSS_Scanner/blob/main/imgs/image-20260413161113022.png)
 
 ### 2.启用payload注入检测(Python服务器)
 
-- 启用payload注入检测(Python服务器)![image-20260413161128188](C:\Users\ziqun\AppData\Roaming\Typora\typora-user-images\image-20260413161128188.png)
+- 启用payload注入检测(Python服务器)![image-20260413161128188](https://github.com/zalazp/XSS_Scanner/blob/main/imgs/image-20260413161128188.png)
 
 - 进入XSS_Scanner/XSS_Scanner_AI文件夹 执行
 
@@ -38,19 +38,19 @@ pip install -r requirements.txt
   python XSS_Scanner_AI.py
   ```
 
-  ![image-20260413161344437](C:\Users\ziqun\AppData\Roaming\Typora\typora-user-images\image-20260413161344437.png)
+  ![image-20260413161344437](https://github.com/zalazp/XSS_Scanner/blob/main/imgs/image-20260413161344437.png)
 
 - 点击"测试连接"
 
-  ![image-20260413161531997](C:\Users\ziqun\AppData\Roaming\Typora\typora-user-images\image-20260413161531997.png)
+  ![image-20260413161531997](https://github.com/zalazp/XSS_Scanner/blob/main/imgs/image-20260413161531997.png)
 
 ### 3.测试网站抓包发送到XSS_Scanner插件
 
 https://xssjs.com/yx/level1.php?name=test
 
-![image-20260413163936393](C:\Users\ziqun\AppData\Roaming\Typora\typora-user-images\image-20260413163936393.png)
+![image-20260413163936393](https://github.com/zalazp/XSS_Scanner/blob/main/imgs/image-20260413163936393.png)
 
-![image-20260413164259557](C:\Users\ziqun\AppData\Roaming\Typora\typora-user-images\image-20260413164259557.png)![image-20260413170719471](C:\Users\ziqun\AppData\Roaming\Typora\typora-user-images\image-20260413170719471.png)
+![image-20260413164259557](https://github.com/zalazp/XSS_Scanner/blob/main/imgs/image-20260413164259557.png)![image-20260413170719471](https://github.com/zalazp/XSS_Scanner/blob/main/imgs/image-20260413170719471.png)
 
 该功能可通过AI 识别XSS的payload是否注入成功,
 
